@@ -1,0 +1,64 @@
+body, h1, h2, h3, h4, h5, h6, figure, pre, dl, dd, blockquote, input[type="radio"], input[type="checkbox"] {margin:0}
+legend {padding:0}
+fieldset, ul, ol {padding:0;margin:0}
+ul, ol {list-style:none}
+body {line-height:1}
+main, figure, figcaption, img {display:block} /*--- <main> for IE 11 ---*/
+img {max-width:100%;height:auto}
+a {text-decoration:none}
+fieldset {border:0}
+input, textarea, select, button {display:block;max-width:100%;font-family:inherit;font-size:inherit;color:inherit}
+label {display:table}
+input[type="text"], input[type="email"], input[type="password"], input[type="search"] {-webkit-appearance:none} /*--- for Safari (add/remove types as needed) ---*/
+button {line-height:inherit}
+button::-moz-focus-inner {border:0} /*--- for Firefox ---*/
+
+* {
+    box-sizing: border-box;
+}
+
+.main-wrapper{
+    display: flex;
+}
+
+.left-wrapper{
+    width: 40vw;
+    height: 100vh;
+}
+
+.left-wrapper img{
+    height: 100%;
+    width: 100%;
+}
+
+.right-wrapper{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.top, .bottom{
+    background-color: #f7f7f7;
+}
+
+.top{
+    height: 35vh;
+    font-size: 2rem;
+    padding: 16px;
+    position: relative;
+}
+
+.top-content{
+    position: absolute;
+    width: 70%;
+    margin-left: 20px;
+    bottom: 75px;
+}
+
+.middle{
+    height: 40vh;
+}
+
+.bottom{
+    height: 25vh;
+}
