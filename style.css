@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap');
 body, h1, h2, h3, h4, h5, h6, figure, pre, dl, dd, blockquote, input[type="radio"], input[type="checkbox"] {margin:0}
 legend {padding:0}
 fieldset, ul, ol {padding:0;margin:0}
@@ -15,6 +16,8 @@ button::-moz-focus-inner {border:0} /*--- for Firefox ---*/
 
 * {
     box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
 }
 
 .main-wrapper{
@@ -43,7 +46,7 @@ button::-moz-focus-inner {border:0} /*--- for Firefox ---*/
 
 .top{
     height: 35vh;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 16px;
     position: relative;
 }
@@ -51,14 +54,58 @@ button::-moz-focus-inner {border:0} /*--- for Firefox ---*/
 .top-content{
     position: absolute;
     width: 70%;
-    margin-left: 20px;
-    bottom: 75px;
+    margin-left: 30px;
+    bottom: 60px;
+    line-height: 1.05;
 }
 
 .middle{
-    height: 40vh;
+    height: 32vh;
+    padding: 25px 60px;
+}
+
+.main-font{
+    font-size: 1.65rem;
 }
 
 .bottom{
-    height: 25vh;
+    height: 33vh;
+}
+
+form{
+    margin-top: 30px;
+}
+
+label{
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+    letter-spacing: .05rem;
+    color: #2c2c2c;
+}
+
+.row{
+    display: flex;
+}
+
+.input-group:nth-child(2){
+    margin-left: 100px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+}
+
+input{
+    width: 250px;
+    border: 1px rgb(228, 228, 228) solid;
+    border-radius: 3px;
+    font-weight: 400;
+    padding-left: 5px;
+    height: 30px;
+}
+
+input:focus{
+    border: 1.5px blue solid;
+    outline: none;
+    box-shadow: 2px 2px 6px rgb(201, 201, 201);
 }
