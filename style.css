@@ -105,7 +105,7 @@ input{
 }
 
 input:focus{
-    border: 1.5px blue solid;
+    border: 1px blue solid;
     outline: none;
-    box-shadow: 2px 2px 6px rgb(201, 201, 201);
+    box-shadow: 2.5px 2px 6px rgb(201, 201, 201);
 }
